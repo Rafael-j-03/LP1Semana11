@@ -20,7 +20,7 @@ namespace GuessTheNumber
             Controller controller = new Controller(targetNumber);
 
             // Create view
-            IView view = new UglyView(controller);
+            IView view = new View(controller);
 
             // Start program
             controller.Run(view);
